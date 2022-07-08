@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react'
-import io from 'Socket.IO-client'
+import io from 'socket.io-client'
 import { UserContext } from '../context/UserContext';
 import CreateCampaign from '../components/modals/CreateCampaign';
 import CreatePlayer from '../components/modals/CreatePlayer';

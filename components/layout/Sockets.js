@@ -1,5 +1,5 @@
 import React from 'react'
-import io from "Socket.IO-client";
+import io from "socket.io-client";
 import { useContext, useEffect, useState } from "react";
 import { CampaignContext } from "../../context/CampaignContext"
 

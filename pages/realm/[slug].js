@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useRouter } from "next/router";
-import io from 'Socket.IO-client'
+import io from 'socket.io-client'
 import { CampaignContext } from "../../context/CampaignContext";
 import { UserContext } from "../../context/UserContext";
 import MapPlayer from "../../components/map/MapPlayer";
